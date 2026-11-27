@@ -7,24 +7,24 @@ cat << EOF
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Title — TheYautja</title>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <table class="frame">
         <tr>
             <td class="header" colspan="2">
                 <div class="site-title">TheYautja</div>
-                <div class="site-subtitle">Personal website and project archive</div>
+                <div class="site-subtitle">Personal website</div>
             </td>
         </tr>
         <tr>
             <td class="navigation">
                 <h3>Navigation</h3>
-                <a href="../../index.html">Home</a>
-                <a href="../about.html">About</a>
-                <a href="../projects.html">Projects</a>
-                <a href="../writing.html">Writing</a>
-                <a href="../contact.html">Contact</a>
+                <a href="/index.html">Home</a>
+                <a href="/pages/about.html">About</a>
+                <a href="/pages/projects.html">Projects</a>
+                <a href="/pages/writing.html">Writing</a>
+                <a href="/pages/contact.html">Contact</a>
 
                 <hr>
 
