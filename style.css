@@ -1,0 +1,178 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: #b8b8b8;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+a {
+    color: #243f68;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #51436b;
+}
+
+a:hover {
+    color: #8b3028;
+}
+
+.frame {
+    width: 96%;
+    max-width: 1500px;
+    min-height: 850px;
+    margin: 0 auto;
+    border: 1px solid #777;
+    border-collapse: collapse;
+    background: #e2e2e2;
+}
+
+.header {
+    padding: 22px 30px;
+    border-bottom: 1px solid #888;
+    background: #c9c9c9;
+}
+
+.site-title {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.site-subtitle {
+    margin-top: 4px;
+    color: #555;
+    font-size: 13px;
+}
+
+.navigation {
+    width: 235px;
+    padding: 24px 20px;
+    vertical-align: top;
+    border-right: 1px solid #aaa;
+    background: #d0d0d0;
+}
+
+.navigation h3 {
+    margin: 0 0 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.navigation a {
+    display: block;
+    padding: 4px 0;
+}
+
+.navigation p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.navigation hr {
+    margin: 22px 0;
+    border: 0;
+    border-top: 1px solid #aaa;
+}
+
+.content {
+    padding: 32px 42px;
+    vertical-align: top;
+}
+
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: normal;
+}
+
+h1 {
+    margin: 0 0 22px;
+    font-size: 28px;
+}
+
+h2 {
+    margin-top: 38px;
+    margin-bottom: 16px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #aaa;
+    font-size: 21px;
+}
+
+p {
+    max-width: 1000px;
+    margin: 0 0 16px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #dedede;
+}
+
+.data-table th,
+.data-table td {
+    padding: 11px 13px;
+    border: 1px solid #aaa;
+    text-align: left;
+    vertical-align: top;
+}
+
+.data-table th {
+    background: #c5c5c5;
+    font-weight: bold;
+}
+
+.data-table td:first-child {
+    width: 220px;
+}
+
+.footer {
+    padding: 12px 20px;
+    border-top: 1px solid #888;
+    background: #c9c9c9;
+    color: #555;
+    font-size: 12px;
+}
+
+.footer span {
+    float: right;
+}
+
+@media (max-width: 700px) {
+    body {
+        padding: 8px;
+    }
+
+    .frame {
+        width: 100%;
+    }
+
+    .navigation {
+        width: 145px;
+        padding: 15px 10px;
+    }
+
+    .content {
+        padding: 20px 14px;
+    }
+
+    .data-table td:first-child {
+        width: auto;
+    }
+
+    .footer span {
+        float: none;
+        display: block;
+    }
+}
+
