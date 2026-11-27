@@ -23,6 +23,7 @@ cat << EOF
                 <a href="/index.html">Home</a>
                 <a href="/pages/about.html">About</a>
                 <a href="/pages/projects.html">Projects</a>
+                <a href="/pages/books.html">Books</a>
                 <a href="/pages/writing.html">Writing</a>
                 <a href="/pages/contact.html">Contact</a>
 
